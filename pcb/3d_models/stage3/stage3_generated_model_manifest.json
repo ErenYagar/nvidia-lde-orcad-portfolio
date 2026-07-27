@@ -1,0 +1,281 @@
+[
+  {
+    "name": "r_0603_1608m",
+    "path": "pcb/3d_models/stage3/r_0603_1608m.step",
+    "sha256": "1A014C636A74A14F9DE28B18A9D814E82FE8A194CBA15317C7C113FA710094FA",
+    "size_bytes": 54235,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 1.6,
+      "width": 0.8,
+      "height": 0.55
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "c_0603_1608m",
+    "path": "pcb/3d_models/stage3/c_0603_1608m.step",
+    "sha256": "E01006FD8AF1F59AF42D6B8A8C551C602B38BD8323769817F9A6C06017E7978A",
+    "size_bytes": 54199,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 1.6,
+      "width": 0.8,
+      "height": 0.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "c_0603_1608m_reserved",
+    "path": "pcb/3d_models/stage3/c_0603_1608m_reserved.step",
+    "sha256": "DFFD7CEACC4E6399D671D98F2C0B803AFEFA560FAC161B324C06ED9F684CE830",
+    "size_bytes": 54232,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 1.6,
+      "width": 0.8,
+      "height": 0.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "c_0402_1005m",
+    "path": "pcb/3d_models/stage3/c_0402_1005m.step",
+    "sha256": "464C31227171AF75F1DD8DB251E2441393CDB71D72222647D31B05500C2E3D59",
+    "size_bytes": 54168,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 1.0,
+      "width": 0.5,
+      "height": 0.5
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "c_1210_3225m",
+    "path": "pcb/3d_models/stage3/c_1210_3225m.step",
+    "sha256": "AB9802B8E3D7E1A24B25AF5E1AC06AC7836BA70EC0B83D57D3C374E3472DE902",
+    "size_bytes": 54208,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 3.2,
+      "width": 2.5,
+      "height": 1.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "murata_blm21_0805",
+    "path": "pcb/3d_models/stage3/murata_blm21_0805.step",
+    "sha256": "F2C683E43B011A0825CC435F0D1096FCB89A91DFFF90DCBF0B71F40B261C9DB9",
+    "size_bytes": 54260,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 2.0,
+      "width": 1.25,
+      "height": 0.95
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "led_0603_1608m",
+    "path": "pcb/3d_models/stage3/led_0603_1608m.step",
+    "sha256": "AA18E9E039CE7B44919AA286255842DE6D485BA159E35032FD7E8682A529E7B9",
+    "size_bytes": 54249,
+    "units": "mm",
+    "source": "IEC/EIA nominal package dimensions; project footprint dimensions",
+    "dimensions": {
+      "length": 1.6,
+      "width": 0.8,
+      "height": 0.65
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "ti_rpw10_2p0x2p0",
+    "path": "pcb/3d_models/stage3/ti_rpw10_2p0x2p0.step",
+    "sha256": "C6A18BD2F727BC63439D9518EF9487233AA49D6DD3F954888169D2865C0CBB12",
+    "size_bytes": 26622,
+    "units": "mm",
+    "source": "TI TPS25947 RPW package drawing",
+    "dimensions": {
+      "length": 2.0,
+      "width": 2.0,
+      "height": 0.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "ti_rpy14_2p5x3p0",
+    "path": "pcb/3d_models/stage3/ti_rpy14_2p5x3p0.step",
+    "sha256": "7856C1C27DC1429713F04146952BA760056BC4BEBED292134BA6F50DCD540B93",
+    "size_bytes": 26655,
+    "units": "mm",
+    "source": "TI TPS543620 RPY package drawing",
+    "dimensions": {
+      "length": 2.5,
+      "width": 3.0,
+      "height": 0.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "ti_dgs10_vssop",
+    "path": "pcb/3d_models/stage3/ti_dgs10_vssop.step",
+    "sha256": "E81255D58232DDADEAA5961618E449FCFC058858E6801C6EF0FC3F4EC6910141",
+    "size_bytes": 208765,
+    "units": "mm",
+    "source": "TI DGS VSSOP package drawing",
+    "dimensions": {
+      "length": 3.0,
+      "width": 3.0,
+      "height": 1.1
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "ti_d8_soic",
+    "path": "pcb/3d_models/stage3/ti_d8_soic.step",
+    "sha256": "9217CA0E018DE3B1C1189D0B423BEA73CB962B9BB61CEA7797D1173745147CE4",
+    "size_bytes": 172043,
+    "units": "mm",
+    "source": "TI D SOIC package drawing",
+    "dimensions": {
+      "length": 5.0,
+      "width": 4.0,
+      "height": 1.75
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "adi_cp_8_10",
+    "path": "pcb/3d_models/stage3/adi_cp_8_10.step",
+    "sha256": "A22D33B550BC34724415BE5B3B908077C0AF08B78B82083044F2E7A52FF7129D",
+    "size_bytes": 26604,
+    "units": "mm",
+    "source": "Analog Devices CP-8-10 package drawing",
+    "dimensions": {
+      "length": 2.0,
+      "width": 2.0,
+      "height": 0.8
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "sot23_standard",
+    "path": "pcb/3d_models/stage3/sot23_standard.step",
+    "sha256": "065D3F7407043550546DBF4A388FC943406992E4A326AD2E57ABA7C09AAB1D4A",
+    "size_bytes": 26683,
+    "units": "mm",
+    "source": "JEDEC SOT-23 nominal package",
+    "dimensions": {
+      "length": 2.9,
+      "width": 1.3,
+      "height": 1.1
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "coilcraft_xgl5050",
+    "path": "pcb/3d_models/stage3/coilcraft_xgl5050.step",
+    "sha256": "6DA933C86A2025D2CA2AA6FA72A343B741A859AA67CBDD3ED02466497D0B294B",
+    "size_bytes": 36385,
+    "units": "mm",
+    "source": "Coilcraft XGL5050 package dimensions",
+    "dimensions": {
+      "length": 5.3,
+      "width": 5.3,
+      "height": 3.0
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "do214aa_smb",
+    "path": "pcb/3d_models/stage3/do214aa_smb.step",
+    "sha256": "41287D9917571CD7246142C352AA9A7279A5630D314422972233CBBD389A7D7E",
+    "size_bytes": 72546,
+    "units": "mm",
+    "source": "DO-214AA nominal package dimensions",
+    "dimensions": {
+      "length": 6.0,
+      "width": 3.6,
+      "height": 2.24
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "harwin_s1751_46r",
+    "path": "pcb/3d_models/stage3/harwin_s1751_46r.step",
+    "sha256": "0BA2A68D334285CCF24CD6880A93CE94E93C1CE05E17B3CC488BAE3F10CB88CC",
+    "size_bytes": 16804,
+    "units": "mm",
+    "source": "Harwin S1751-46R product dimensions",
+    "dimensions": {
+      "diameter": 2.5,
+      "height": 2.25
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "hdr_1x4_2p54_ra",
+    "path": "pcb/3d_models/stage3/hdr_1x4_2p54_ra.step",
+    "sha256": "37DBDEB89C57C6F077B55E3231A6E9D437683451DB5925B4A4E96DF46A6BBA13",
+    "size_bytes": 90735,
+    "units": "mm",
+    "source": "Samtec TSW 1x4 2.54 mm nominal package envelope",
+    "dimensions": {
+      "length": 10.16,
+      "width": 2.54,
+      "height": 8.0
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "wd_black_sn750_1tb_wds100t3x0c_engineering",
+    "path": "pcb/3d_models/stage3/wd_black_sn750_1tb_wds100t3x0c_engineering.step",
+    "sha256": "34A48F5AC19EDA7418E91B96B76D3200F0309A1EF09B49DA831AF13024002BB9",
+    "size_bytes": 438513,
+    "units": "mm",
+    "source": "WD Black SN750 product brief: 80 x 22 x 2.38 mm; component pattern is visual assumption",
+    "dimensions": {
+      "length": 80.0,
+      "width": 22.0,
+      "height": 2.38
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "m2_2280_standoff_engineering",
+    "path": "pcb/3d_models/stage3/m2_2280_standoff_engineering.step",
+    "sha256": "3A6DF80A8208CA07177ABB4EB8BCA29EC1D7D7B18A39D7362985D89B7E4A02AC",
+    "size_bytes": 24574,
+    "units": "mm",
+    "source": "Project-selected conservative M2 2280 retention envelope; vendor pending",
+    "dimensions": {
+      "diameter": 5.0,
+      "support_height": 4.2,
+      "total_height": 4.95
+    },
+    "status": "Engineering_Assumption"
+  },
+  {
+    "name": "low_profile_pcie_bracket_engineering",
+    "path": "pcb/3d_models/stage3/low_profile_pcie_bracket_engineering.step",
+    "sha256": "EBDFDCD622515A26A07205B1BCCA2456209C2678444F078D2B5DA3F65BA64AD7",
+    "size_bytes": 54154,
+    "units": "mm",
+    "source": "Project conservative low-profile PCIe bracket envelope; controlled CEM drawing pending",
+    "dimensions": {
+      "board_axis_span": 63.0,
+      "height": 16.2,
+      "sheet": 1.2
+    },
+    "status": "Engineering_Assumption"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "stage": "Stage 3 RevK",
+  "candidate_status": "Interview_Digital_Complete_Not_For_Fabrication",
+  "interview_digital_complete": true,
+  "fabrication_ready": false,
+  "source_board": "pcb/allegro/stage3/pcie_gen3_x4_nvme_adapter_reva_stage3_route_revk_interview_digital_complete.brd",
+  "source_board_sha256": "C772E9C3CD7A04A2CE3FBD1F5AE659E0935B786B235B17354DB83371BB4FF3EA",
+  "native_audit": {
+    "drc": 0,
+    "unconnected": 0,
+    "active_rats": 0,
+    "pcie_unconnected": 0,
+    "shape_islands": 0,
+    "unassigned_shapes": 0,
+    "native_diffpairs": 9
+  },
+  "pspice": {
+    "governing_recovery_v": 3.109,
+    "governing_status": "Simulated_Fail",
+    "candidate_cases": 27,
+    "candidate_status": "Not_Concluded_Runtime_Limit"
+  },
+  "exports": {
+    "gerber_files": 14,
+    "nc_drill_files": 2,
+    "ipc2581": "Generated_Engineering_Review",
+    "ipc356": "Failed_Empty_Output_Excluded",
+    "odb_plus_plus": "Not_Supported_By_Installed_Tool",
+    "step": "Generated_AP242_mm_Preliminary"
+  },
+  "claims": {
+    "pcie_compliance": false,
+    "universal_ssd_support": false,
+    "chassis_compatibility": false,
+    "bench_qualified": false
+  }
+}

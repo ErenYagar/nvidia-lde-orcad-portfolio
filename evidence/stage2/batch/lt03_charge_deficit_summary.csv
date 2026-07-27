@@ -1,0 +1,7 @@
+COUT_Effective_uF,VOUT_Min_V,VPRE_Min_V,Shunt_Current_Max_A,Five_Percent_Screen,Ten_Percent_Screen,Model_Scope,Status,Evidence
+44,1.003000,1.030000,7.000000,Fail,Fail,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/44u/lt03_charge_deficit_44u.csd
+66,1.766000,1.795000,7.000000,Fail,Fail,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/66u/lt03_charge_deficit_66u.csd
+88,2.148000,2.177000,7.000000,Fail,Fail,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/88u/lt03_charge_deficit_88u.csd
+150,2.620000,2.652000,7.000000,Fail,Fail,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/150u/lt03_charge_deficit_150u.csd
+330,2.985000,3.019000,7.000000,Fail,Pass,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/330u/lt03_charge_deficit_330u.csd
+680,3.142000,3.176000,7.000000,Pass,Pass,Conservative_Charge_Deficit_Not_Vendor_MacroModel,Simulated,evidence/stage2/batch/work/lt03_charge_deficit/680u/lt03_charge_deficit_680u.csd

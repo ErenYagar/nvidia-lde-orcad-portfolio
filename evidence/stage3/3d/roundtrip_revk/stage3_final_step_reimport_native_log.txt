@@ -1,0 +1,8 @@
+REVK INTERVIEW DIGITAL COMPLETE
+PRELIMINARY MECHANICAL PLACEMENT - NOT FAB READY
+Result: NATIVE_DRA_STEP_ASSIGNMENT_OK
+Source_STEP: C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/pcie_gen3_x4_nvme_adapter_reva_revk_final_preliminary.step
+Output_DRA: pcie_gen3_x4_nvme_adapter_reva_revk_final_step_reimport
+Wrapper_Units: millimeters
+Wrapper_Place_Bound_mm: 120.000 x 64.000
+Mapping_Readback: (nil objType "step" rotation_z 0.0 rotation_y 0.0 rotation_x 0.0 offset_z 0.0 offset_y 0.0 offset_x 0.0 color 0 type primary step_name "pcie_gen3_x4_nvme_adapter_reva_revk_final_preliminary.step")

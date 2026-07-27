@@ -1,0 +1,10 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : pcie_gen3_x4_nvme_adapter_reva_revk_final-1-6-np.drl for board C:/project/orcad_project/nvidia-lde-orcad-portfolio/pcb/allegro/stage3/pcie_gen3_x4_nvme_adapter_reva_stage3_route_revk_interview_digital_complete.brd ... layers TOP and BOTTOM
+;T03 Holesize 1. = 3.500000 Tolerance = +0.100000/-0.100000 NON_PLATED MM Quantity = 1
+%
+G90
+T03
+X11600000Y03600000
+M30

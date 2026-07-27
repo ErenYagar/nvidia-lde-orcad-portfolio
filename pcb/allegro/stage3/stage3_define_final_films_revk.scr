@@ -1,0 +1,4 @@
+setwindow pcb
+skill load "C:/project/orcad_project/nvidia-lde-orcad-portfolio/pcb/allegro/stage3/stage3_define_final_films_revk.il"
+exit
+no

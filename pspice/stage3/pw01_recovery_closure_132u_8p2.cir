@@ -1,0 +1,27 @@
+* Stage 3 recovery-undershoot closure candidate.
+* Two 1210 output capacitors at a conservative 132 uF combined effective value.
+
+.PARAM COUT_EFF=132U COUT_ESR=3M CFF_VALUE=8.2P
+.INC "reva_buck_common_stage3.inc"
+
+VINPUT VIN 0 12
+VEN EN 0 PWL(0 0 20U 0 25U 3.3)
+ILOAD P3V3_NVME 0 PWL(
++ 0 0
++ 650U 0
++ 655U 0.5
++ 1100U 0.5
++ 1105U 5
++ 1200U 5
++ 1205U 7
++ 1305U 7
++ 1310U 5
++ 1360U 5
++ 1365U 0.5
++ 1400U 0.5
++)
+
+.TRAN 2U 1.4M 0 200N
+.OPTIONS ABSTOL=10P ITL2=50 ITL4=20 METHOD=GEAR TRTOL=500
+.PROBE/CSDF V(*) I(*)
+.END

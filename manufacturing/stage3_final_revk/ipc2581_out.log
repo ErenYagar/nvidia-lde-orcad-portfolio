@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IPC2581 Export                                                   )
+(                                                                     )
+(    Software Version : 25.1S040                                      )
+(    Date/Time        : Sun Jul 26 23:08:21 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Warning: Layer mapping settings were not found, the default settings will be used.
+
+
+Collecting net list ...
+
+
+
+Collecting padstack defintions ...
+
+
+
+Collecting package defintions ...
+
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "PCIE_CEM_X4_EDGE_REVA".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "AMPHENOL_MDT420M01501".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "HDR_1X4_2P54_RA".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "TI_RPW10_2P0X2P0".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "TI_RPY14_2P5X3P0".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "TI_DGS10_VSSOP".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "TI_D8_SOIC".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "ADI_CP_8_10".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "VISHAY_WSK2512_4T".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "COILCRAFT_XGL5050".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "MURATA_BLM21_0805".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "SOT23_STANDARD".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "LED_0603_1608M".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "DO214AA_SMB".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "HARWIN_S1751_46R".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "C_0402_1005M".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "C_0603_1608M_RESERVED".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "C_1210_3225M".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "C_0603_1608M".
+  An overall bounding box has been exported.
+WARNING:  Multiple PLACE_BOUND outlines defined for the package "R_0603_1608M".
+  An overall bounding box has been exported.
+WARNING: No PLACE_BOUND outline found for the package "BRACKET_PRELIM", IGNORED.
+
+
+Collecting component descriptions ...
+
+
+
+Collecting BOM items ...
+
+
+
+Property configuration file: 
+IPC2581 file: C:\project\orcad_project\nvidia-lde-orcad-portfolio\manufacturing\stage3_final_revk\pcie_gen3_x4_nvme_adapter_reva_revk_final_ipc2581.xml
+IPC2581 version: IPC2581-C
+BRD file: C:/project/orcad_project/nvidia-lde-orcad-portfolio/pcb/allegro/stage3/pcie_gen3_x4_nvme_adapter_reva_stage3_route_revk_interview_digital_complete.brd
+IPC2581 units: MILLIMETER
+Export design profile: YES
+Global package pin1 orientation: OTHER
+Default symbol height: 3.81
+Export drill information?: YES
+Export backdrill information?: NO
+Export BOM information?: YES
+Export component assembly?: YES
+Export component packages?: YES
+Export logical net list?: YES
+Export physical net list?: YES
+Export stackup defintion?: YES
+Export Outer Copper Layers?: YES
+Export Inner Copper Layers?: YES
+Export Documentation Layers?: YES
+Export Miscellaneous Fab Layers?: YES
+Export SolderMask Layers?: YES
+Export SolderPaste Layers?: YES
+Export Silkscreen (Legend) Layers?: YES
+Export vector text?: NO
+Export cavities?: NO
+Export padstack definitions?: YES
+Export zip file?: NO
+Export Exclude Design Outline ?: NO
+a2ipc2581 complete.

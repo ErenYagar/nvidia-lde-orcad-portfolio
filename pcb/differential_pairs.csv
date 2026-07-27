@@ -1,0 +1,11 @@
+Pair_Name,Positive_Net,Negative_Net,Signal_Type,Source_Component,Destination_Component,Preferred_Layer,Reference_Plane,AC_Coupling_On_Board,Polarity_Status,Pin_Mapping_Status,Constraint_Status,Review_Notes
+PCIE_TX0,PCIE_TX0_P,PCIE_TX0_N,PCIE_GEN3_DATA,J1,J2,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,Host TX to SSD RX; no onboard capacitor; physical pins and geometry not frozen
+PCIE_TX1,PCIE_TX1_P,PCIE_TX1_N,PCIE_GEN3_DATA,J1,J2,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,Host TX to SSD RX; no onboard capacitor; physical pins and geometry not frozen
+PCIE_TX2,PCIE_TX2_P,PCIE_TX2_N,PCIE_GEN3_DATA,J1,J2,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,Host TX to SSD RX; no onboard capacitor; physical pins and geometry not frozen
+PCIE_TX3,PCIE_TX3_P,PCIE_TX3_N,PCIE_GEN3_DATA,J1,J2,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,Host TX to SSD RX; no onboard capacitor; physical pins and geometry not frozen
+PCIE_RX0,PCIE_RX0_P,PCIE_RX0_N,PCIE_GEN3_DATA,J2,J1,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,SSD TX to host RX; SSD transmitter owns coupling; physical pins and geometry not frozen
+PCIE_RX1,PCIE_RX1_P,PCIE_RX1_N,PCIE_GEN3_DATA,J2,J1,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,SSD TX to host RX; SSD transmitter owns coupling; physical pins and geometry not frozen
+PCIE_RX2,PCIE_RX2_P,PCIE_RX2_N,PCIE_GEN3_DATA,J2,J1,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,SSD TX to host RX; SSD transmitter owns coupling; physical pins and geometry not frozen
+PCIE_RX3,PCIE_RX3_P,PCIE_RX3_N,PCIE_GEN3_DATA,J2,J1,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,SSD TX to host RX; SSD transmitter owns coupling; physical pins and geometry not frozen
+PCIE_REFCLK,PCIE_REFCLK_P,PCIE_REFCLK_N,PCIE_REFERENCE_CLOCK,J1,J2,L1,L2,NO,Pending_Human_Verification,Pending_Human_Verification,Pending_Fabricator_Confirmation,Clock requirements must be checked separately from data lane constraints
+

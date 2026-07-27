@@ -1,0 +1,13 @@
+
+**** PSpice 25.1.0 (24 May 2026) ****
+
+* PW-01 Rev A TPS543620 combined Stage 2 power profile.
+Reading and checking circuit
+Circuit read in and checked, no errors
+Calculating bias point for Transient Analysis
+Bias point calculated
+Transient Analysis
+Transient Analysis finished
+  Total job time (using Solver 1)   =     5978.11
+
+Simulation complete.

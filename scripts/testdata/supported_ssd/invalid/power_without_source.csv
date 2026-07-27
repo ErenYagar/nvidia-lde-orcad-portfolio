@@ -1,0 +1,2 @@
+Candidate_ID,Manufacturer,Exact_Model,Capacity_GB,Hardware_Revision,Firmware,Form_Factor,Steady_Current_A,Peak_Current_A,Peak_Duration_us,Power_Source_Type,Power_Source_Document,Power_Source_Revision,Power_Source_Date,Simulation_Evidence,Mechanical_Evidence,Bench_Evidence,Link_Evidence,Thermal_Evidence,Disposition,Exclusion_Reason,Reviewer,Review_Date,Official_Project_Status,Notes
+TEST-BAD-SOURCE,Example Storage,TEST-NVME-2280,1024,A,TEST1,M.2_2280_M_Key_NVMe,4.0,6.0,100,,,,,,,,,,Candidate,,,,Pending_Human_Verification,Invalid fixture

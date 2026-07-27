@@ -1,0 +1,14 @@
+CASE=cout132u_esr5m_cff0p0p
+TIMEOUT_SECONDS=15
+MODEL_SHA256=EDA49ED925B97ABB34C956E87C5DF490AB0EFB605D2C0F7792D67E8CDEC2441F
+
+**** PSpice 25.1.0 (24 May 2026) ****
+
+* Stage 3 recovery sweep: COUT=132uF ESR=5mOhm CFF=0.0pF
+Reading and checking circuit
+Circuit read in and checked, no errors
+Calculating bias point for Transient Analysis
+Bias point calculated
+Transient Analysis
+
+PROCESS_TERMINATED_BY_RUNTIME_CAP

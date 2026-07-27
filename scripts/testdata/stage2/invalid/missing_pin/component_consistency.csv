@@ -1,0 +1,2 @@
+Reference,BOM_Present,Symbol_Pin_Count,Footprint_Pad_Count,Netlist_Present,Allegro_Present,Placed,Inside_Board,Status,Evidence
+J1,YES,0,0,YES,YES,YES,YES,Pending_Human_Verification,component_report.csv

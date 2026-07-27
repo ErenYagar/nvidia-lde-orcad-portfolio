@@ -1,0 +1,3 @@
+Source_Component,Source_Pin,Source_Pin_Name,Net_Name,Destination_Component,Destination_Pin,Destination_Pin_Name,Signal_Type,Voltage_Domain,Differential_Pair_Name,Direction,Source_Document,Human_Review_Status,Notes
+J1,A1,PIN,NET_A,J2,1,PIN_A,Digital,3V3,NA,Forward,Test source,Engineering_Assumption,Fixture
+J1,A1,PIN,NET_B,J2,2,PIN_B,Digital,3V3,NA,Forward,Test source,Engineering_Assumption,Fixture

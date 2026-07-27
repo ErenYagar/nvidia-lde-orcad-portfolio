@@ -1,0 +1,476 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pcie_gen3_x4_nvme_adapter_reva_stage3_route_revk_interview_digital_complete.brd )
+(    Software Version : 25.1S040                                      )
+(    Date/Time        : Sun Jul 26 23:07:17 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE             GERBER_RS274X
+    OUTPUT-UNITS            MM
+    FILM-SIZE               600 600
+    FORMAT                  4.6
+    ABORT-ON-ERROR          NO
+    SCALE                   1
+    SUPPRESS-LEAD-ZEROES    NO
+    SUPPRESS-TRAIL-ZEROES   NO
+    SUPPRESS-EQUAL          YES
+    UNDEF-APT-CONT          NO
+
+
+================================================================
+     PROCESSING FILM < L1_TOP >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L1_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (0.0000 0.0000)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+
+     L1_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < L2_GND1 >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L2_GND1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+
+     L2_GND1 created with warnings
+
+
+================================================================
+     PROCESSING FILM < L3_SIG1 >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L3_SIG1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+
+     L3_SIG1 created.
+
+
+================================================================
+     PROCESSING FILM < L4_PWR >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L4_PWR.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25000                                  DARK 
+
+     L4_PWR created.
+
+
+================================================================
+     PROCESSING FILM < L5_GND2 >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L5_GND2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+
+     L5_GND2 created.
+
+
+================================================================
+     PROCESSING FILM < L6_BOTTOM >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/L6_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+
+     L6_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SM_TOP >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/SM_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  SQUARE     0.65000                     0.000 NO     DARK 
+  SQUARE     1.20000                     0.000 NO     DARK 
+  SQUARE     2.10000                     0.000 NO     DARK 
+  RECTANGLE  0.40000     x 2.85000      90.000 NO     DARK 
+  RECTANGLE  0.55000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 5.10000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.35000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.95000       0.000 NO     DARK 
+  RECTANGLE  0.90000     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.35000       0.000 NO     DARK 
+  RECTANGLE  1.10000     x 0.40000       0.000 NO     DARK 
+  RECTANGLE  1.10000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.10000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.86000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 2.70000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 2.70000      90.000 NO     DARK 
+  RECTANGLE  1.70000     x 0.75000       0.000 NO     DARK 
+  RECTANGLE  2.10000     x 3.30000       0.000 NO     DARK 
+  RECTANGLE  2.30000     x 2.50000       0.000 NO     DARK 
+  RECTANGLE  2.39000     x 2.13000       0.000 NO     DARK 
+
+     SM_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SM_BOTTOM >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/SM_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         X
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.80000     x 5.10000       0.000 NO     DARK 
+
+     SM_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/SILK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (19.4760 3.5160)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:  NONE
+     SILK_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_BOTTOM >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/SILK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         X
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     SILK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_TOP >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/PASTE_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  SQUARE     0.50000                     0.000 NO     DARK 
+  SQUARE     1.05000                     0.000 NO     DARK 
+  SQUARE     1.95000                     0.000 NO     DARK 
+  RECTANGLE  0.25000     x 2.70000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.65000     x 4.95000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.80000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.20000       0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.65000       0.000 NO     DARK 
+  RECTANGLE  0.95000     x 1.25000       0.000 NO     DARK 
+  RECTANGLE  1.35000     x 0.71000       0.000 NO     DARK 
+  RECTANGLE  1.35000     x 2.55000       0.000 NO     DARK 
+  RECTANGLE  1.35000     x 2.55000      90.000 NO     DARK 
+  RECTANGLE  1.55000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.95000     x 3.15000       0.000 NO     DARK 
+  RECTANGLE  2.15000     x 2.35000       0.000 NO     DARK 
+  RECTANGLE  2.24000     x 1.98000       0.000 NO     DARK 
+
+     PASTE_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTE_BOTTOM >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/PASTE_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         X
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  RECTANGLE  0.65000     x 4.95000       0.000 NO     DARK 
+
+     PASTE_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_TOP >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/ASSEMBLY_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (19.9840 3.3890)
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:  NONE
+     ASSEMBLY_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_BOTTOM >
+     TO FILE < C:/project/orcad_project/nvidia-lde-orcad-portfolio/manufacturing/stage3_final_revk/ASSEMBLY_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Suppress shape fill on neg film     NO
+  Mirror code                         X
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  YES
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     ASSEMBLY_BOTTOM created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        L1_TOP created with warnings
+        L2_GND1 created with warnings
+        L3_SIG1 created.
+        L4_PWR created.
+        L5_GND2 created.
+        L6_BOTTOM created.
+        SM_TOP created.
+        SM_BOTTOM created.
+        SILK_TOP created with warnings
+        SILK_BOTTOM created.
+        PASTE_TOP created.
+        PASTE_BOTTOM created.
+        ASSEMBLY_TOP created with warnings
+        ASSEMBLY_BOTTOM created.
+
+ ARTWORK had warnings

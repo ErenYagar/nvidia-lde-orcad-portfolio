@@ -1,0 +1,29 @@
+Source_Component,Source_Pin,Source_Pin_Name,Net_Name,Destination_Component,Destination_Pin,Destination_Pin_Name,Signal_Type,Voltage_Domain,Differential_Pair_Name,Direction,Source_Document,Human_Review_Status,Notes
+J1,TBD,PET0_P,PCIE_TX0_P,J2,TBD,PET0_P,PCIe_Differential,AC_Coupled,PCIE_TX0,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET0_N,PCIE_TX0_N,J2,TBD,PET0_N,PCIe_Differential,AC_Coupled,PCIE_TX0,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET1_P,PCIE_TX1_P,J2,TBD,PET1_P,PCIe_Differential,AC_Coupled,PCIE_TX1,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET1_N,PCIE_TX1_N,J2,TBD,PET1_N,PCIe_Differential,AC_Coupled,PCIE_TX1,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET2_P,PCIE_TX2_P,J2,TBD,PET2_P,PCIe_Differential,AC_Coupled,PCIE_TX2,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET2_N,PCIE_TX2_N,J2,TBD,PET2_N,PCIe_Differential,AC_Coupled,PCIE_TX2,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET3_P,PCIE_TX3_P,J2,TBD,PET3_P,PCIe_Differential,AC_Coupled,PCIE_TX3,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PET3_N,PCIE_TX3_N,J2,TBD,PET3_N,PCIe_Differential,AC_Coupled,PCIE_TX3,SSD_to_Host,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER0_P,PCIE_RX0_P,J2,TBD,PER0_P,PCIe_Differential,AC_Coupled,PCIE_RX0,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER0_N,PCIE_RX0_N,J2,TBD,PER0_N,PCIe_Differential,AC_Coupled,PCIE_RX0,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER1_P,PCIE_RX1_P,J2,TBD,PER1_P,PCIe_Differential,AC_Coupled,PCIE_RX1,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER1_N,PCIE_RX1_N,J2,TBD,PER1_N,PCIe_Differential,AC_Coupled,PCIE_RX1,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER2_P,PCIE_RX2_P,J2,TBD,PER2_P,PCIe_Differential,AC_Coupled,PCIE_RX2,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER2_N,PCIE_RX2_N,J2,TBD,PER2_N,PCIe_Differential,AC_Coupled,PCIE_RX2,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER3_P,PCIE_RX3_P,J2,TBD,PER3_P,PCIe_Differential,AC_Coupled,PCIE_RX3,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PER3_N,PCIE_RX3_N,J2,TBD,PER3_N,PCIe_Differential,AC_Coupled,PCIE_RX3,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,REFCLK_P,PCIE_REFCLK_P,J2,TBD,REFCLK_P,PCIe_Clock,AC_Coupled,PCIE_REFCLK,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,REFCLK_N,PCIE_REFCLK_N,J2,TBD,REFCLK_N,PCIe_Clock,AC_Coupled,PCIE_REFCLK,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PERST_N,PCIE_PERST_N,J2,TBD,PERST_N,Sideband,3V3,NA,Host_to_SSD,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,CLKREQ_N,PCIE_CLKREQ_N,J2,TBD,CLKREQ_N,Sideband,3V3,NA,Bidirectional_Open_Drain,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,PEWAKE_N,PCIE_PEWAKE_N,J2,TBD,PEWAKE_N,Sideband,3V3,NA,SSD_to_Host_Open_Drain,PCI-SIG CEM and M.2 specifications,Pending_Human_Verification,Pin numbers intentionally pending
+J1,TBD,12V,P12V_SLOT,U1,TBD,IN,Power,12V,NA,Host_to_Card,PCI-SIG CEM,Pending_Human_Verification,Power pin number pending
+U2,TBD,VOUT,P3V3_NVME,J2,TBD,3V3,Power,3V3,NA,Supply_to_SSD,TPS543620 and M.2 specifications,Pending_Human_Verification,Power pin number pending
+J1,TBD,PRSNT_A,PCIE_PRSNT_N,J1,TBD,PRSNT_B,Sideband,3V3,NA,Passive,PCI-SIG CEM,Pending_Human_Verification,Presence pins pending
+U2,TBD,VOUT,P3V3_AUX,U3,TBD,VS,Power,3V3,NA,Supply_to_Telemetry,Telemetry architecture,Engineering_Assumption,Aux rail fixture
+U2,TBD,PGOOD,PGOOD_3V3,TP1,1,TEST,Open_Drain,3V3,NA,Output,TPS543620,Confirmed_Official,PGOOD fixture
+U3,TBD,SCL,I2C_SCL,J3,2,SCL,I2C,3V3,NA,Bidirectional,Interface definition,Engineering_Assumption,I2C fixture
+U3,TBD,SDA,I2C_SDA,J3,3,SDA,I2C,3V3,NA,Bidirectional,Interface definition,Engineering_Assumption,I2C fixture

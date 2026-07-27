@@ -1,0 +1,4 @@
+Item,State,Evidence,Status,Notes
+Routing,Pass,evidence.txt,Confirmed_Official,False routing pass
+Fabrication_Release,Not_Released,evidence.txt,Planned,Not a fabrication release
+PCIe_Compliance,Not_Claimed,evidence.txt,Not_Yet_Measured,No compliance claim

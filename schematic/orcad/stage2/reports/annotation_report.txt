@@ -1,0 +1,13 @@
+Stage 2 Capture Annotation Audit
+Tool interface: OrCAD Capture 25.1 DBO/ISCF batch after native GUI ERC
+DSN: C:/project/orcad_project/nvidia-lde-orcad-portfolio/schematic/orcad/stage2/native_25_1/PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.dsn
+DSN_SHA256: 64261FAF970518F368E9EF253A3A45221CCB31A39DCB3D761A88AD4A55D0320C
+Annotated_Reference_Count: 61
+Unique_Reference_Count: 61
+02_PCIE_EDGE_INTERFACE: 1
+03_M2_NVME_INTERFACE: 1
+04_POWER_INPUT_PROTECTION: 11
+05_3V3_POWER: 22
+06_POWER_TELEMETRY: 8
+07_DEBUG_AND_TESTPOINTS: 18
+Result: PASS

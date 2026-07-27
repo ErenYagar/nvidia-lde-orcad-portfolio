@@ -1,0 +1,2 @@
+Artifact,Path,Size_Bytes,SHA256,Source_Path,Source_SHA256,Status,Stage_State,Notes
+Stale_Hash,evidence.bin,17,0000000000000000000000000000000000000000000000000000000000000000,,,Engineering_Assumption,Stage 2 - Batch Audited,Negative fixture

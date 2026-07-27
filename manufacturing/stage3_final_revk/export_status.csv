@@ -1,0 +1,10 @@
+Artifact,Result,Notes
+Native_Allegro_Board,Interview_Digital_Complete,"DRC=0; unconnected=0; active rats=0; shape islands=0"
+Gerber_14,Generated_Engineering_Review,"All files non-empty; 0-width warnings retained for CAM review"
+NC_Drill_2,Generated_Engineering_Review,"Plated and non-plated outputs; auto tool table retained"
+IPC_2581,Generated_Engineering_Review,"IPC-2581-C; mm; masks/paste/silkscreen included"
+IPC_356,Failed_Empty_Output_Excluded,"Zero-byte output moved to diagnostics/ipc356_failed"
+ODB_Plus_Plus,Not_Supported_By_Installed_Tool,"No output executable in installed OrCAD X 25.1 toolset"
+Assembly_STEP,Generated_Preliminary,"mm; AP242; TOP/UPPER datum; native isolated DRA readback passed"
+BOM_PnP,Generated_Preliminary,"Board-hash-bound; not procurement/fabrication release"
+Fabrication_Ready,false,"Stack-up, governing specifications, exact models and physical validation remain open"

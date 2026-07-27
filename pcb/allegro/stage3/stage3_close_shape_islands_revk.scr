@@ -1,0 +1,4 @@
+setwindow pcb
+skill load "C:/project/orcad_project/nvidia-lde-orcad-portfolio/pcb/allegro/stage3/stage3_close_shape_islands_revk.il"
+exit
+no

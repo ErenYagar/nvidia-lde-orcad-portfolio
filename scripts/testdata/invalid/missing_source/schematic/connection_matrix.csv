@@ -1,0 +1,2 @@
+Source_Component,Source_Pin,Source_Pin_Name,Net_Name,Destination_Component,Destination_Pin,Destination_Pin_Name,Signal_Type,Voltage_Domain,Differential_Pair_Name,Direction,Source_Document,Human_Review_Status,Notes
+U1,6,OUT,P12V_PROTECTED,U2,8,VIN,POWER,12V,,POWER,,Confirmed_Official,Confirmed critical power row without a source must fail

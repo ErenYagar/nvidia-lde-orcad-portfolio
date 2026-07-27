@@ -1,0 +1,20 @@
+Item,State,Evidence,Status,Notes
+Capture_Hierarchy,Native_Reopen_Passed,schematic/orcad/stage2/reports/capture_electrical_reopen_audit.csv,Engineering_Assumption,Seven native pages contain 61 uniquely annotated electrical instances
+Capture_Connectivity,Native_ERC_And_ISCF_Audit_Passed_With_Limitations,schematic/orcad/stage2/reports/erc_report.txt,Engineering_Assumption,Native GUI ERC has zero error and warning records; all 53 expected design nets are present; controlled-spec limitations remain
+Electrical_Pin_Freeze,Access_Exception_Public_Baseline,stage2/CONTROLLED_SPEC_ACCESS_EXCEPTION.md,Pending_Human_Verification,J1 and J2 public-source physical pins are usable for a portfolio baseline but are not Confirmed_Official
+PSpice_CLI,Official_Buck_Profile_Concluded_With_Recovery_Fail,evidence/stage2/pspice/pw01_vendor_combined_run/pw01_window_metrics.csv,Simulated,TPS543620 SLUM787A concluded; 5 A steady and 7 A/100 us windows pass 3.135 V but the recovery window reaches 3.109 V and fails the 5 percent screen
+LT03_Charge_Deficit_Screen,Batch_Simulated,evidence/stage2/batch/lt03_charge_deficit_summary.csv,Simulated,Conservative six-case charge-deficit screen supplements the official macro-model run
+eFuse_Model,Functional_Validation_Failed,pspice/smoke_tests/tps25947_vendor_reference/run_record.md,Pending_Human_Verification,TPS25947 encrypted model loaded but the isolated reference runs did not reach a valid functional startup
+Allegro_Native_Read,Native_25_1_Reopen_Passed,evidence/stage2/batch/stage2_final_dbstat.txt,Engineering_Assumption,Stage 2 native database reopens through allegro_batch as OrCAD 25.1
+Formal_Package_Library,Batch_Built,pcb/allegro/stage2/library/create_sym_compile_results.csv,Engineering_Assumption,Stage 2 PAD DRA and PSM package library was generated and compiled
+J2_Exact_STEP,Native_3DX_Assignment_Observed,evidence/stage2/3d/stage2_3dx_export_record.md,Engineering_Assumption,Official product-page STEP is mapped to the J2 footprint and was visible in the native 3DX Model Mapper; vendor model revision is unstated
+Placement,Complete_Placed_Unrouted,pcb/allegro/stage2/reports/component_report.csv,Engineering_Assumption,61 logical components are placed inside the 120 by 64 mm preliminary outline; no clines are present
+Constraints,Documentation_Groups_Assigned,pcb/allegro/stage2/reports/constraint_report.txt,Pending_Fabricator_Confirmation,Nine differential-pair documentation groups and seven functional classes exist; final impedance geometry remains open
+ThreeDX,Native_3DX_Evidence_Completed,evidence/stage2/3d/stage2_3dx_manifest.csv,Engineering_Assumption,Twelve native 3DX views are hash-locked to the current Stage 2 board; missing exact bodies remain preliminary envelopes
+STEP_Roundtrip,Exported_And_Isolated_Reimport_Preliminary_Clear,evidence/stage2/3d/stage2_step_roundtrip.csv,Engineering_Assumption,The 2.0 MB millimetre STEP contains 115 closed solids and visually overlays the native 120 by 64 mm assembly after the recorded translation
+Collision_Review,Cases_Recorded_No_Official_Pass,evidence/stage2/3d/stage2_collision_results.csv,Pending_Human_Verification,3D-01 and 3D-08 are Preliminary_Clear; 3D-02 through 3D-07 remain blocked by missing exact models or controlled clearance rules
+Stage2_Strict_Audit,Passed_Zero_Issues,scripts/check_stage2_delivery.py,Engineering_Assumption,Strict delivery validator passes with the documented controlled-spec access exception and all 44 unit tests pass
+Routing,Not_Started,pcb/allegro/stage2/reports/unconnected_report.txt,Planned,Stage 2 is intentionally placed and unrouted
+Fabrication_Release,Not_Released,pcb/allegro/stage2/reports/constraint_report.txt,Planned,Gerber ODB++ and fab-ready release belong to Stage 3
+PCIe_Compliance,Not_Claimed,stage2/README.md,Not_Yet_Measured,No PCIe compliance claim
+Physical_Bringup,Not_Yet_Measured,stage2/README.md,Not_Yet_Measured,Physical SSD fit enumeration link and thermal tests belong to Stage 3

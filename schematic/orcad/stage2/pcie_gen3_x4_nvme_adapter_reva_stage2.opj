@@ -1,0 +1,117 @@
+(ExpressProject "pcie_gen3_x4_nvme_adapter_reva_stage2_electrical"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S040 (4438746)  [5/24/2026]-[07/24/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB"
+        (DisplayName
+           "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB")
+        (Type "Schematic Library")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
+      (Type "Schematic Design"))
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "FALSE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "FALSE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "FALSE")
+    (DRC_Check_Missing_Pin_Numbers_Online "FALSE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\PROJECT\ORCAD_PROJECT\NVIDIA-LDE-ORCAD-PORTFOLIO\SCHEMATIC\ORCAD\STAGE2\NATIVE_25_1\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DRC"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "²N²N·R´Â¤l")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn")
+      (Path "Design Resources"
+         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
+         "SCHEMATIC1" "01_SYSTEM_OVERVIEW"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 113 0 418"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 935 29 441")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\PROJECT\ORCAD_PROJECT\NVIDIA-LDE-ORCAD-PORTFOLIO\SCHEMATIC\ORCAD\STAGE2\NATIVE_25_1\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01_SYSTEM_OVERVIEW"))))

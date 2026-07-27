@@ -1,0 +1,32 @@
+# Large simulator waveforms and generated runtime state
+*.dat
+*.csd
+*.mif
+*.out
+*.pid
+*.lck
+*.lck.*
+*.jrl
+*.jrl,*
+*.log,*
+*.dbk
+
+# Local build/runtime directories
+tools/
+tmp/
+build/
+render_check/
+__pycache__/
+*.pyc
+
+# Archives are distributed separately from the GitHub source package
+*.zip
+
+# Superseded revision duplicates kept only in the local source package
+*revj*
+*,1
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

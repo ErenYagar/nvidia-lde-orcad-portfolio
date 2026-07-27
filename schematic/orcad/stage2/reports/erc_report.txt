@@ -1,0 +1,20 @@
+Stage 2 Electrical Connectivity and ERC Audit
+Method: OrCAD Capture 25.1 S040 native GUI ERC + DBO reopen + ISCF connectivity audit
+Native Capture GUI ERC: Executed_2026-07-24_21:00_Asia_Taipei
+ERC_Report: schematic/orcad/stage2/native_25_1/PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DRC
+ERC_Report_SHA256: D0043343B76331BD9B987E3013F9A86B03B905B07D3A7DA215F26813708F8814
+ERC_Error_Records: 0
+ERC_Warning_Records: 0
+Post_ERC_DBO_Page_Count: 7
+Post_ERC_DBO_Part_Instance_Count: 61
+Native_DSN_SHA256: 64261FAF970518F368E9EF253A3A45221CCB31A39DCB3D761A88AD4A55D0320C
+Controlled PCI-SIG/M.2 governing specifications: Access_Exception_Documented
+Expected_Design_Nets: 53
+Actual_ISCF_Nets: 54
+Physical_Pin_Endpoints: 251
+Missing_Design_Nets: NONE
+Documented_Extra_Nets: P3V3_SLOT_UNUSED
+P3V3_SLOT_UNUSED disposition: intentionally isolated J1 slot-power contacts
+Scope_Limitation: ERC result covers configured Capture electrical and physical rules only
+Compliance/Fab-ready claim: PROHIBITED
+Result: PASS_WITH_DOCUMENTED_LIMITATIONS

@@ -1,5 +1,7 @@
 # PCIe Gen3 x4 → M.2 NVMe Adapter — Technical Case Study
 
+語言 / Language：[`繁體中文版`](PROJECT_REPORT_ZH.md)｜[`English full version`](PROJECT_REPORT_EN.md)
+
 **NVIDIA LDE interview portfolio · Rev K / RevK evidence · `Interview_Digital_Complete_Not_For_Fabrication`**<br>
 這份報告把 repository 由「檔案清單」改成一個可追溯的 PCB system-design 故事。所有結論都連回原理圖資料、PSpice record、native Allegro/3DX evidence 或製造輸出；未量測或未取得受控來源的項目維持 open/block status。
 

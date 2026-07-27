@@ -1,5 +1,7 @@
 # Documentation audit — NVIDIA LDE OrCAD portfolio
 
+語言 / Language：[`繁體中文版`](DOCUMENTATION_AUDIT_ZH.md)｜[`English full version`](DOCUMENTATION_AUDIT_EN.md)
+
 Audit date: 2026-07-27  
 Scope: public repository at `ErenYagar/nvidia-lde-orcad-portfolio`  
 Method: repository file inventory, path checks, evidence/status review, claim scan, and validator execution.

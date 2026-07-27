@@ -9,10 +9,10 @@ This repository documents a six-layer, low-profile PCIe add-in card that physica
 ## Start here
 
 1. [Open the bilingual visual portfolio](portfolio/index.html)
-2. [Read the technical case study](PROJECT_REPORT.md)
-3. [Use the interview walkthrough](docs/INTERVIEW_GUIDE.md)
-4. [Trace every claim to evidence](docs/CLAIM_EVIDENCE_MATRIX.md)
-5. [Read the documentation audit and open gaps](docs/DOCUMENTATION_AUDIT.md)
+2. [Read the technical case study — English](PROJECT_REPORT_EN.md) / [繁體中文](PROJECT_REPORT_ZH.md)
+3. [Use the interview walkthrough — English](docs/INTERVIEW_GUIDE.md) / [繁體中文](docs/INTERVIEW_GUIDE_ZH.md)
+4. [Trace every claim — English](docs/CLAIM_EVIDENCE_MATRIX.md) / [繁體中文](docs/CLAIM_EVIDENCE_MATRIX_ZH.md)
+5. [Read the documentation audit — English](docs/DOCUMENTATION_AUDIT_EN.md) / [繁體中文](docs/DOCUMENTATION_AUDIT_ZH.md)
 
 ## What the board actually does
 

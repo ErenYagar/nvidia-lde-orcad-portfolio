@@ -1,5 +1,7 @@
 # Interview guide — PCIe Gen3 x4 to M.2 NVMe adapter
 
+語言 / Language：[`繁體中文版`](INTERVIEW_GUIDE_ZH.md)｜English canonical version is this file
+
 Use the short version first, then open the linked evidence only when the interviewer asks for depth. The safe framing is: **digital interview closure, not fabrication release or PCIe compliance**.
 
 ## Walkthrough scripts

@@ -1,5 +1,7 @@
 # Claim / evidence matrix
 
+語言 / Language：[`繁體中文版`](CLAIM_EVIDENCE_MATRIX_ZH.md)｜English canonical version is this file
+
 Status vocabulary: `VERIFIED` = directly supported by a current repository artifact; `PRELIMINARY` = design intent or review evidence, not a released qualification; `SIMULATION-LIMITED` = a recorded simulation result with model/runtime boundary; `BLOCKED` = a required input or gate is missing; `OPEN` = not yet measured or not concluded.
 
 | Claim | Status | Why it matters | Evidence path | What it proves | What it does not prove |

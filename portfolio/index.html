@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OrCAD X and Allegro PCIe Gen3 x4 to M.2 NVMe adapter interview portfolio.">
+  <title>PCIe × NVMe — OrCAD Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="../README.md" aria-label="Back to repository README"><span class="mark">▰</span> EREN YAGAR / BOARD DESIGN</a>
+    <nav aria-label="Portfolio navigation">
+      <a href="#overview">Overview</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#method">Method</a>
+      <a class="nav-cta" href="https://github.com/ErenYagar/nvidia-lde-orcad-portfolio">Open repository ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> NVIDIA LDE INTERVIEW PORTFOLIO · REV K</p>
+        <h1>PCIe <em>×</em> NVMe<br><span>without the black box.</span></h1>
+        <p class="lede">A rule-driven OrCAD X / Allegro workflow for a six-layer PCIe Gen3 x4 add-in card to M.2 M-Key 2280 NVMe adapter.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#evidence">Explore the board <span>↓</span></a>
+          <a class="button button-ghost" href="../README.md">Read the engineering log ↗</a>
+        </div>
+        <div class="status-line"><span class="status-pill">INTERVIEW_DIGITAL_COMPLETE</span><span class="slash">/</span><span>Preliminary mechanical + digital review</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-label top-left">FIG 01 / ASSEMBLY</div>
+        <div class="visual-label bottom-right">120 × 64 MM · 6L</div>
+        <div class="crosshair crosshair-a"></div><div class="crosshair crosshair-b"></div>
+        <img src="../evidence/stage3/portfolio_revk/stage3_hero_isometric_assembly.png" alt="Isometric 3D assembly view of the PCIe to M.2 NVMe adapter board" class="hero-image">
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Design metrics">
+      <div><strong>06</strong><span>copper layers</span></div>
+      <div><strong>×4</strong><span>PCIe Gen3 lanes</span></div>
+      <div><strong>5A</strong><span>3.3 V normal target</span></div>
+      <div><strong>01</strong><span>controlled power path</span></div>
+    </section>
+
+    <section class="section evidence-section" id="evidence">
+      <div class="section-heading"><p class="kicker">01 / VISUAL EVIDENCE</p><h2>Designed to be inspected.</h2><p>Three views for the first conversation: placement intent, package density and the mechanical envelope. Each image is backed by native board, STEP and report artifacts in the repository.</p></div>
+      <div class="gallery">
+        <figure class="gallery-card gallery-card-large"><button class="image-button" data-full="../evidence/stage3/portfolio_revk/stage3_top_assembly.png"><img src="../evidence/stage3/portfolio_revk/stage3_top_assembly.png" alt="Top assembly view showing M.2 slot, PCIe edge connector and component placement"><span class="zoom">VIEW FULL ↗</span></button><figcaption><span>02 / TOP ASSEMBLY</span><strong>Connector-first placement</strong></figcaption></figure>
+        <figure class="gallery-card"><button class="image-button" data-full="../evidence/stage3/portfolio_revk/stage3_hero_isometric_pcb_detail.png"><img src="../evidence/stage3/portfolio_revk/stage3_hero_isometric_pcb_detail.png" alt="Detailed isometric PCB view with component package models"><span class="zoom">VIEW FULL ↗</span></button><figcaption><span>03 / PACKAGE DETAIL</span><strong>Real library bodies, not blue blocks</strong></figcaption></figure>
+        <figure class="gallery-card"><button class="image-button" data-full="../evidence/stage3/portfolio_revk/stage3_side.png"><img src="../evidence/stage3/portfolio_revk/stage3_side.png" alt="Side view showing board thickness and low profile clearance"><span class="zoom">VIEW FULL ↗</span></button><figcaption><span>04 / SIDE REVIEW</span><strong>Low-profile mechanical baseline</strong></figcaption></figure>
+        <figure class="gallery-card"><button class="image-button" data-full="../evidence/stage3/portfolio_revk/stage3_ssd_underside.png"><img src="../evidence/stage3/portfolio_revk/stage3_ssd_underside.png" alt="Underside view showing the SSD envelope and retention geometry"><span class="zoom">VIEW FULL ↗</span></button><figcaption><span>05 / UNDERSIDE</span><strong>SSD envelope and retention</strong></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section method-section" id="method">
+      <div class="section-heading"><p class="kicker">02 / ENGINEERING METHOD</p><h2>Every pretty view has a paper trail.</h2><p>The project connects electrical intent, physical placement, simulation evidence and manufacturing outputs in one reviewable package.</p></div>
+      <div class="method-grid">
+        <article><span class="number">01</span><h3>Capture → Allegro</h3><p>Seven-page hierarchy, symbol/pin maps, footprint assignments, native project artifacts and ERC evidence.</p><a href="../schematic/connection_matrix.csv">Open connection matrix ↗</a></article>
+        <article><span class="number">02</span><h3>Power closure</h3><p>PCIe 12 V protection, 6 A synchronous buck, Kelvin shunt and telemetry path with disclosed PSpice limits.</p><a href="../docs/power_budget.md">Open power budget ↗</a></article>
+        <article><span class="number">03</span><h3>3DX → STEP</h3><p>Native 3DX evidence, model mapping, collision status and millimetre STEP round-trip record.</p><a href="../evidence/stage3/3dx_native_revk/">Open 3DX evidence ↗</a></article>
+        <article><span class="number">04</span><h3>Release discipline</h3><p>Gerber, NC Drill, IPC-2581, BOM/P&amp;P and Python validators are kept beside the board evidence.</p><a href="../VALIDATION_STATUS.md">Read validation status ↗</a></article>
+      </div>
+    </section>
+
+    <section class="boundary" aria-labelledby="boundary-title">
+      <div><p class="kicker">ENGINEERING BOUNDARY</p><h2 id="boundary-title">Honest status is part of the design.</h2></div>
+      <ul><li>Not a fabrication release or PCIe compliance claim.</li><li>JLCPCB controlled stack-up and CEM/M.2 controlled-spec sign-off remain gates.</li><li>PSpice recovery limitation and preliminary exact-model coverage are disclosed in the evidence.</li></ul>
+    </section>
+
+    <section class="closing">
+      <p class="eyebrow"><span class="dot"></span> SOURCE-TRACEABLE / REVIEW-READY</p>
+      <h2>Bring the board into the interview.</h2>
+      <p>Use the gallery for the first 30 seconds. Open the repository when the conversation turns technical.</p>
+      <a class="button button-primary" href="https://github.com/ErenYagar/nvidia-lde-orcad-portfolio">View full GitHub portfolio ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>© 2026 Eren Yagar</span><span>OrCAD X / Allegro / PSpice / 3DX</span><a href="../README.md">Repository README ↗</a></footer>
+
+  <dialog id="lightbox" aria-label="Expanded portfolio image"><button class="close-dialog" aria-label="Close image">×</button><img id="lightbox-image" alt=""></dialog>
+  <script>
+    const dialog = document.getElementById('lightbox');
+    const expanded = document.getElementById('lightbox-image');
+    document.querySelectorAll('.image-button').forEach((button) => button.addEventListener('click', () => {
+      expanded.src = button.dataset.full;
+      expanded.alt = button.querySelector('img').alt;
+      dialog.showModal();
+    }));
+    document.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+  </script>
+</body>
+</html>

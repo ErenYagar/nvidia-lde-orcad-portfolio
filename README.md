@@ -12,6 +12,16 @@ Electrical Engineering M.S. candidate with complementary FPGA/RTL and board-desi
 
 This is **not** a fabrication release and does not claim PCIe compliance, universal SSD support, chassis compatibility, or bench qualification.
 
+## Portfolio page
+
+Open the visual project page: **[PCIe × NVMe — OrCAD Portfolio](portfolio/index.html)**. It puts the three strongest assembly views first, then links each visual claim to the underlying schematic, PSpice, 3DX, STEP, CAM, and validation evidence.
+
+![PCIe to M.2 NVMe adapter isometric assembly](evidence/stage3/portfolio_revk/stage3_hero_isometric_assembly.png)
+
+![PCIe to M.2 NVMe adapter top assembly](evidence/stage3/portfolio_revk/stage3_top_assembly.png)
+
+![PCIe to M.2 NVMe adapter detailed PCB view](evidence/stage3/portfolio_revk/stage3_hero_isometric_pcb_detail.png)
+
 ## What is included
 
 - Native Allegro board database and reusable SKILL/Tcl/batch sources.

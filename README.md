@@ -16,6 +16,8 @@ This is **not** a fabrication release and does not claim PCIe compliance, univer
 
 Open the bilingual visual project page: **[PCIe × NVMe — OrCAD Portfolio](portfolio/index.html)** or use the [published GitHub Pages site](https://erenyagar.github.io/nvidia-lde-orcad-portfolio/). Use the `中文 / EN` control in the top navigation to switch languages. It puts the three strongest assembly views first, then links each visual claim to the underlying schematic, PSpice, 3DX, STEP, CAM, and validation evidence.
 
+For the full technical narrative, read the **[Project Report](PROJECT_REPORT.md)**.
+
 ![PCIe to M.2 NVMe adapter isometric assembly](evidence/stage3/portfolio_revk/stage3_hero_isometric_assembly.png)
 
 ![PCIe to M.2 NVMe adapter top assembly](evidence/stage3/portfolio_revk/stage3_top_assembly.png)

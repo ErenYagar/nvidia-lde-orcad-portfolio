@@ -5,9 +5,9 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File
-         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB"
+         "..\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB"
         (DisplayName
-           "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB")
+           "..\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2.OLB")
         (Type "Schematic Library")))
     (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
@@ -72,7 +72,7 @@
     (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
-       "C:\PROJECT\ORCAD_PROJECT\NVIDIA-LDE-ORCAD-PORTFOLIO\SCHEMATIC\ORCAD\STAGE2\NATIVE_25_1\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DRC"))
+       ".\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DRC"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "PSpice Resources"
@@ -91,12 +91,12 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn")
+         ".\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn")
       (Path "Design Resources"
-         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
+         ".\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
          "SCHEMATIC1")
       (Select "Design Resources"
-         "C:\project\orcad_project\nvidia-lde-orcad-portfolio\schematic\orcad\stage2\native_25_1\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
+         ".\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn"
          "SCHEMATIC1" "01_SYSTEM_OVERVIEW"))
     (HierarchyView)
     (Doc
@@ -112,6 +112,6 @@
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\PROJECT\ORCAD_PROJECT\NVIDIA-LDE-ORCAD-PORTFOLIO\SCHEMATIC\ORCAD\STAGE2\NATIVE_25_1\PCIE_GEN3_X4_NVME_ADAPTER_REVA_STAGE2_ELECTRICAL.DSN")
+         ".\pcie_gen3_x4_nvme_adapter_reva_stage2_electrical.dsn")
       (Schematic "SCHEMATIC1")
       (Page "01_SYSTEM_OVERVIEW"))))

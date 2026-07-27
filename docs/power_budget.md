@@ -23,8 +23,8 @@
 | eFuse 損耗，28.2 mΩ typ | 0.068 W | 0.134 W | 以 slot-side 1.548 A / 2.176 A 估算 |
 | Slot 12 V 估算電流 | 1.548 A | 2.176 A | 未加入 connector/copper loss |
 
-計算細節與機器可讀數字分別位於 `calculations/buck_component_calculations.md` 與
-`calculations/power_budget.csv`。PCIe CEM 插槽允許功率、inrush 與 12 V tolerance 尚未以
+計算細節與機器可讀數字保留於原始工作包；public package 以本文件與
+`pspice/stage2/profile_results.csv` 作為可審查摘要。PCIe CEM 插槽允許功率、inrush 與 12 V tolerance 尚未以
 可授權的正式規格完成覆核，所以本文件**不宣告 Power Design Freeze**。
 
 ## 預算邊界
@@ -53,7 +53,7 @@ Rev A 首選由 `P3V3_NVME` 端做 Kelvin feedback，使控制器補償 shunt �
 
 - 以正式 PCIe CEM 文件確認 slot power、12 V operating range 與 inrush envelope。
 - 取得目標 SSD 的 vendor power envelope；若超過本預算，建立明確 supported-SSD list。
-- 依 [Rev A Supported SSD Policy](../validation/supported_ssd_policy.md) 保存 exact
+- 依 [Supported SSD matrix](../validation/supported_ssd_matrix.csv) 保存 reference
   model／capacity／firmware與 qualification evidence；目前 supported-device table為空。
 - 在 OrCAD PSpice 實跑 startup、5 A normal、5→7 A/100 µs、line transient 與 tolerance profiles。
 - 驗證 high current-limit 模式下 7 A pulse 的 peak inductor current，不得碰到 8.6 A minimum
@@ -62,7 +62,7 @@ Rev A 首選由 `P3V3_NVME` 端做 Kelvin feedback，使控制器補償 shunt �
 - 以 PCB 實際銅面重算 TPS543620、TPS259472L、L1 與 shunt 溫升。
 - 實板確認 `P3V3_NVME` 在正式 SSD tolerance 內；正式 tolerance 未確認前，內部設計目標用
   3.135 V 至 3.465 V（±5%）並標 `Engineering_Assumption`。
-- 依 [TPS259472L eFuse Setting Worksheet](../calculations/efuse_setting_worksheet.md)
+- 依官方 TPS25947 資料與本文件後續建立 eFuse setting worksheet；public package 未包含 worksheet
   關閉 UVLO、OVCSEL、CdVdt、RILM、CITIMER、PGTH、SOA 與 fault-policy corners；
   特別確認 472L 的 active-current-limit／thermal latch 行為是否符合系統需求。
 

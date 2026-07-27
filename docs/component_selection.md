@@ -70,7 +70,7 @@ SI/PI、firmware 或 mechanical review。價格為 qty-1、USD、2026-07-23 snap
 
 | 功能 | 候選 | 相對優點 | 風險／使用條件 | 結論 |
 |---|---|---|---|---|
-| eFuse | TPS259472L | Active current limit、PG、pin-selected clamp；限流／clamp造成 thermal shutdown後 latch-off | OVCSEL、RILM、dVdt、ITIMER、SOA與 fault recovery 需在 CEM review 後計算 | Rev A baseline；fault policy必須經 [setting worksheet](../calculations/efuse_setting_worksheet.md) 關閉 |
+| eFuse | TPS259472L | Active current limit、PG、pin-selected clamp；限流／clamp造成 thermal shutdown後 latch-off | OVCSEL、RILM、dVdt、ITIMER、SOA與 fault recovery 需在 CEM review 後計算 | Rev A baseline；fault policy需依 [power budget](power_budget.md) 與官方資料後續關閉；public package 未包含 worksheet |
 | eFuse | TPS259474L | ITIMER後 circuit-breaker shutdown、PG、adjustable OVLO；`L` variant保持 latch-off | 對 transient、overvoltage與desired behavior不同 | 備選；若要求 immediate circuit-breaker latch，再走 ECO |
 | eFuse | TPS259470L | Adjustable OVLO、FLT | 無 PG/PGTH，與目前 sequencing 需求不完全相符 | 不推薦 Rev A |
 | Buck | TPS543620 | 6 A、小型、官方 transient model、與計畫一致 | 7 A 只可當短 pulse；thermal margin 要驗證 | Rev A 推薦 |

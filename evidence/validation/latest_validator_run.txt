@@ -1,0 +1,386 @@
+Validator Run Log
+=================
+Repository: ErenYagar/nvidia-lde-orcad-portfolio
+Branch: main
+Commit: 24d9f51a3bbe024b5cb5d757c8823362d4c2612a
+Audit scope: documented public-package validators plus Stage 2 progress triage command
+Native Cadence/PSpice source files were not modified.
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-01
+Command: python scripts/validate_csv.py --root .
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:53.3843525+08:00
+End_Timestamp: 2026-07-28T14:23:53.6131382+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: All repository CSV files
+[STDOUT]
+Checked 46 CSV file(s); 0 issue(s).
+[STDERR]
+<empty>
+--------------------------------------------------------------------------------
+Test_ID: VAL-02
+Command: python scripts/check_bom_fields.py manufacturing/bom.csv
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:53.4054128+08:00
+End_Timestamp: 2026-07-28T14:23:53.5416034+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: manufacturing/bom.csv
+[STDOUT]
+Checked BOM; 0 issue(s).
+[STDERR]
+<empty>
+--------------------------------------------------------------------------------
+Test_ID: VAL-03
+Command: python scripts/check_duplicate_pins.py schematic/connection_matrix.csv schematic/symbol_pinmap.csv
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:54.1357078+08:00
+End_Timestamp: 2026-07-28T14:23:54.3832408+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: schematic/connection_matrix.csv; schematic/symbol_pinmap.csv
+[STDOUT]
+schematic\connection_matrix.csv:112:C1.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [112, 113, 114, 115, 116]
+schematic\connection_matrix.csv:118:D2.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [118, 119, 120, 121, 122]
+schematic\connection_matrix.csv:47:FB1.2:WARNING:duplicate appearance on P3V3_AUX; human review rows [47, 48, 56, 57, 58, 75, 145, 173, 187, 189, 191, 195, 197, 199, 201, 208]
+schematic\connection_matrix.csv:24:J1.A2:WARNING:duplicate appearance on P12V_SLOT; human review rows [24, 67, 112, 118, 124]
+schematic\connection_matrix.csv:25:J1.A3:WARNING:duplicate appearance on P12V_SLOT; human review rows [25, 68, 113, 119, 125]
+schematic\connection_matrix.csv:26:J1.B1:WARNING:duplicate appearance on P12V_SLOT; human review rows [26, 69, 114, 120, 126]
+schematic\connection_matrix.csv:27:J1.B2:WARNING:duplicate appearance on P12V_SLOT; human review rows [27, 70, 115, 121, 127]
+schematic\connection_matrix.csv:28:J1.B3:WARNING:duplicate appearance on P12V_SLOT; human review rows [28, 71, 116, 122, 128]
+schematic\connection_matrix.csv:65:J3.1:WARNING:duplicate appearance on GND; human review rows [65, 66, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 117, 123, 131, 133, 137, 139, 141, 143, 144, 151, 152, 153, 154, 156, 158, 162, 164, 172, 176, 177, 178, 183, 184, 185, 186, 188, 190, 192, 194, 203, 204, 205, 206, 207, 211]
+schematic\connection_matrix.csv:31:L1.1:WARNING:duplicate appearance on SW_3V3; human review rows [31, 32]
+schematic\connection_matrix.csv:33:L1.2:WARNING:duplicate appearance on P3V3_PRE_SENSE; human review rows [33, 73, 179, 180, 181, 182]
+schematic\connection_matrix.csv:124:R1.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [124, 125, 126, 127, 128]
+schematic\connection_matrix.csv:169:R12.2:WARNING:duplicate appearance on BUCK_FB; human review rows [169, 170, 171]
+schematic\connection_matrix.csv:59:RISO1.1:WARNING:duplicate appearance on P3V3_SENSE_PROTECTED; human review rows [59, 60]
+schematic\connection_matrix.csv:34:RSH1.I2:WARNING:duplicate appearance on P3V3_NVME; human review rows [34, 35, 36, 37, 38, 39, 40, 41, 42, 45, 46, 74, 167, 168]
+schematic\connection_matrix.csv:67:TP1.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [67, 68, 69, 70, 71]
+schematic\connection_matrix.csv:129:U1.1:WARNING:duplicate appearance on EFUSE_EN_UVLO; human review rows [129, 130]
+schematic\connection_matrix.csv:135:U1.4:WARNING:duplicate appearance on EFUSE_PGTH; human review rows [135, 136]
+schematic\connection_matrix.csv:24:U1.5:WARNING:duplicate appearance on P12V_SLOT; human review rows [24, 25, 26, 27, 28]
+schematic\connection_matrix.csv:29:U1.6:WARNING:duplicate appearance on P12V_PROTECTED; human review rows [29, 30, 72, 134, 147, 148, 149, 150, 159]
+schematic\connection_matrix.csv:31:U2.10:WARNING:duplicate appearance on SW_3V3; human review rows [31, 166]
+schematic\connection_matrix.csv:55:U2.3:WARNING:duplicate appearance on PGOOD_3V3; human review rows [55, 174, 175]
+schematic\connection_matrix.csv:160:U2.7:WARNING:duplicate appearance on BUCK_EN; human review rows [160, 161]
+schematic\connection_matrix.csv:53:U3.3:WARNING:duplicate appearance on INA_ALERT_N; human review rows [53, 200]
+schematic\connection_matrix.csv:51:U3.4:WARNING:duplicate appearance on I2C_SDA; human review rows [51, 198]
+schematic\connection_matrix.csv:49:U3.5:WARNING:duplicate appearance on I2C_SCL; human review rows [49, 196]
+schematic\connection_matrix.csv:51:U4.1:WARNING:duplicate appearance on I2C_SDA; human review rows [51, 52]
+schematic\connection_matrix.csv:49:U4.2:WARNING:duplicate appearance on I2C_SCL; human review rows [49, 50]
+schematic\connection_matrix.csv:54:U4.3:WARNING:duplicate appearance on TEMP_ALERT_N; human review rows [54, 202]
+schematic\connection_matrix.csv:59:U5.1:WARNING:duplicate appearance on P3V3_SENSE_PROTECTED; human review rows [59, 193]
+schematic\connection_matrix.csv:62:U5.3:WARNING:duplicate appearance on GND; human review rows [62, 63, 64]
+Checked pin data; 0 error(s), 31 warning(s).
+[STDERR]
+<empty>
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-04
+Command: python scripts/check_net_names.py schematic/connection_matrix.csv
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:54.1767072+08:00
+End_Timestamp: 2026-07-28T14:23:54.4092632+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: schematic/connection_matrix.csv
+[STDOUT]
+Checked net names; 0 issue(s).
+[STDERR]
+<empty>
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-05
+Command: python scripts/check_documentation_links.py --root .
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:54.2447141+08:00
+End_Timestamp: 2026-07-28T14:23:54.5921739+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: Repository Markdown links
+[STDOUT]
+Checked 225 local link(s); 0 issue(s).
+[STDERR]
+<empty>
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-06
+Command: python scripts/check_portfolio_i18n.py
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:54.2487048+08:00
+End_Timestamp: 2026-07-28T14:23:54.4637837+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 0
+Affected_Files: Portfolio i18n nodes
+[STDOUT]
+Checked 75 i18n node(s); 0 issue(s).
+[STDERR]
+<empty>
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-07
+Command: python -m unittest discover -s scripts -p "test_*.py" -v
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:25:29.8830115+08:00
+End_Timestamp: 2026-07-28T14:25:32.1147318+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 1
+Affected_Files: scripts/test_*.py and referenced fixtures/artifacts
+[STDOUT]
+<empty>
+[STDERR]
+test_collision_evidence_must_be_registered_in_manifest (test_3d_delivery.Check3dDeliveryTests.test_collision_evidence_must_be_registered_in_manifest) ... ok
+test_collision_number_tokens (test_3d_delivery.Check3dDeliveryTests.test_collision_number_tokens) ... ok
+test_collision_numbers_reject_nonfinite_and_negative_values (test_3d_delivery.Check3dDeliveryTests.test_collision_numbers_reject_nonfinite_and_negative_values) ... ok
+test_duplicate_case_detection (test_3d_delivery.Check3dDeliveryTests.test_duplicate_case_detection) ... ok
+test_expected_case_contract (test_3d_delivery.Check3dDeliveryTests.test_expected_case_contract) ... ok
+test_malformed_native_audit_becomes_standard_issue (test_3d_delivery.Check3dDeliveryTests.test_malformed_native_audit_becomes_standard_issue) ... ok
+test_manifest_hash_and_size_drift_are_rejected (test_3d_delivery.Check3dDeliveryTests.test_manifest_hash_and_size_drift_are_rejected) ... ok
+test_preliminary_screening_margin (test_3d_delivery.Check3dDeliveryTests.test_preliminary_screening_margin) ... ok
+test_semicolon_and_comma_reference_expansion (test_3d_delivery.Check3dDeliveryTests.test_semicolon_and_comma_reference_expansion) ... ok
+test_confirmed_collision_requires_mapping_and_evidence (test_3d_models.Check3dModelsTests.test_confirmed_collision_requires_mapping_and_evidence) ... ok
+test_confirmed_mapping_requires_confirmed_model_and_transform (test_3d_models.Check3dModelsTests.test_confirmed_mapping_requires_confirmed_model_and_transform) ... ok
+test_confirmed_model_requires_file_and_hash (test_3d_models.Check3dModelsTests.test_confirmed_model_requires_file_and_hash) ... ok
+test_pending_row_is_valid (test_3d_models.Check3dModelsTests.test_pending_row_is_valid) ... ok
+test_blocked_collision_cases_are_complete_and_honest (test_stage2_delivery.Stage2DeliveryTests.test_blocked_collision_cases_are_complete_and_honest) ... FAIL
+test_documented_access_exception_requires_explicit_opt_in (test_stage2_delivery.Stage2DeliveryTests.test_documented_access_exception_requires_explicit_opt_in) ... FAIL
+test_false_routing_claim_fails (test_stage2_delivery.Stage2DeliveryTests.test_false_routing_claim_fails) ... ok
+test_missing_evidence_and_stale_hash_fail (test_stage2_delivery.Stage2DeliveryTests.test_missing_evidence_and_stale_hash_fail) ... ok
+test_missing_physical_pin_fails (test_stage2_delivery.Stage2DeliveryTests.test_missing_physical_pin_fails) ... ok
+test_pad_mismatch_fails (test_stage2_delivery.Stage2DeliveryTests.test_pad_mismatch_fails) ... ok
+test_repository_progress_delivery_passes (test_stage2_delivery.Stage2DeliveryTests.test_repository_progress_delivery_passes) ... FAIL
+test_repository_strict_delivery_remains_blocked (test_stage2_delivery.Stage2DeliveryTests.test_repository_strict_delivery_remains_blocked) ... ok
+test_unplaced_component_fails (test_stage2_delivery.Stage2DeliveryTests.test_unplaced_component_fails) ... ok
+test_valid_status_and_consistency_fixtures_pass (test_stage2_delivery.Stage2DeliveryTests.test_valid_status_and_consistency_fixtures_pass) ... ok
+test_missing_preliminary_body_fails (test_step_export.CheckStepExportTests.test_missing_preliminary_body_fails) ... ok
+test_missing_units_fails (test_step_export.CheckStepExportTests.test_missing_units_fails) ... ok
+test_valid_structural_export (test_step_export.CheckStepExportTests.test_valid_structural_export) ... ok
+test_invalid_project_status_fails (test_supported_ssd.SupportedSsdValidatorTests.test_invalid_project_status_fails) ... ok
+test_missing_file_is_usage_or_file_error (test_supported_ssd.SupportedSsdValidatorTests.test_missing_file_is_usage_or_file_error) ... ok
+test_over_envelope_candidate_must_be_excluded (test_supported_ssd.SupportedSsdValidatorTests.test_over_envelope_candidate_must_be_excluded) ... ok
+test_power_values_without_official_source_fail (test_supported_ssd.SupportedSsdValidatorTests.test_power_values_without_official_source_fail) ... ok
+test_repository_placeholder_passes_without_support_claim (test_supported_ssd.SupportedSsdValidatorTests.test_repository_placeholder_passes_without_support_claim) ... ok
+test_supported_claim_without_evidence_fails (test_supported_ssd.SupportedSsdValidatorTests.test_supported_claim_without_evidence_fails) ... ok
+test_valid_fixture_passes (test_supported_ssd.SupportedSsdValidatorTests.test_valid_fixture_passes) ... ok
+test_blank_mpn_fails (test_validators.ValidatorTests.test_blank_mpn_fails) ... ok
+test_confirmed_critical_row_without_source_fails (test_validators.ValidatorTests.test_confirmed_critical_row_without_source_fails) ... ok
+test_discovery_excludes_frozen_release_snapshots (test_validators.ValidatorTests.test_discovery_excludes_frozen_release_snapshots) ... ok
+test_duplicate_pin_fails (test_validators.ValidatorTests.test_duplicate_pin_fails) ... ok
+test_invalid_net_fails (test_validators.ValidatorTests.test_invalid_net_fails) ... ok
+test_missing_column_fails_schema_validation (test_validators.ValidatorTests.test_missing_column_fails_schema_validation) ... ok
+test_missing_file_returns_usage_error (test_validators.ValidatorTests.test_missing_file_returns_usage_error) ... ok
+test_source_manifest_hashes_vendor_file (test_validators.ValidatorTests.test_source_manifest_hashes_vendor_file) ... ok
+test_summary_counts_profile_table_statuses (test_validators.ValidatorTests.test_summary_counts_profile_table_statuses) ... ok
+test_unsupported_status_fails (test_validators.ValidatorTests.test_unsupported_status_fails) ... ok
+test_valid_bom_passes (test_validators.ValidatorTests.test_valid_bom_passes) ... ok
+test_valid_connection_names_pass (test_validators.ValidatorTests.test_valid_connection_names_pass) ... ok
+
+======================================================================
+FAIL: test_blocked_collision_cases_are_complete_and_honest (test_stage2_delivery.Stage2DeliveryTests.test_blocked_collision_cases_are_complete_and_honest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\project\orcad_project\.repo_audit_tmp_20260728\scripts\test_stage2_delivery.py", line 61, in test_blocked_collision_cases_are_complete_and_honest
+    self.assertEqual([], stage2.validate_collision_results(PROJECT_ROOT))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [Issue(path=WindowsPath('C:/project/orcad_[1609 chars]ng')]
+
+Second list contains 8 additional elements.
+First extra element 0:
+Issue(path=WindowsPath('C:/project/orcad_project/.repo_audit_tmp_20260728/evidence/stage2/3d/stage2_collision_results.csv'), row=2, field='Evidence_File', severity='ERROR', message='evidence file missing')
+
+Diff is 1973 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_documented_access_exception_requires_explicit_opt_in (test_stage2_delivery.Stage2DeliveryTests.test_documented_access_exception_requires_explicit_opt_in)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\project\orcad_project\.repo_audit_tmp_20260728\scripts\test_stage2_delivery.py", line 57, in test_documented_access_exception_requires_explicit_opt_in
+    self.assertTrue(closed_with_exception)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_repository_progress_delivery_passes (test_stage2_delivery.Stage2DeliveryTests.test_repository_progress_delivery_passes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\project\orcad_project\.repo_audit_tmp_20260728\scripts\test_stage2_delivery.py", line 43, in test_repository_progress_delivery_passes
+    self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:2:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:3:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:4:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:5:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:6:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:7:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:8:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:9:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:10:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:2:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:2:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:4:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:5:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:6:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:6:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:7:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:8:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:8:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:9:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:9:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:11:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:13:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:14:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:15:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:16:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:17:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:18:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:19:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:20:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:21:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:22:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:23:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:24:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:25:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:27:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:28:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:28:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:30:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:31:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:32:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:33:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:34:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:35:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:37:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:38:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:39:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:40:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:41:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:42:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:43:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:44:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:44:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:45:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:45:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:2:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:3:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:4:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:5:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:6:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:7:Evidence:ERROR:CSDF evidence missing
+Checked Stage 2 progress delivery; 63 issue(s).
+
+
+----------------------------------------------------------------------
+Ran 45 tests in 2.036s
+
+FAILED (failures=3)
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-08
+Command: python scripts/check_stage3_delivery.py --root .
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:23:54.2867040+08:00
+End_Timestamp: 2026-07-28T14:23:54.6936506+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 1
+Affected_Files: Legacy Stage 3 delivery paths and current repository artifacts
+[STDOUT]
+<empty>
+[STDERR]
+Traceback (most recent call last):
+  File "C:\project\orcad_project\.repo_audit_tmp_20260728\scripts\check_stage3_delivery.py", line 258, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\project\orcad_project\.repo_audit_tmp_20260728\scripts\check_stage3_delivery.py", line 104, in main
+    mapping_text = mapping_inventory.read_text(encoding="utf-8")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\project\\orcad_project\\.repo_audit_tmp_20260728\\pcb\\allegro\\stage3\\stage3_3d_mapping_inventory.txt'
+
+--------------------------------------------------------------------------------
+Test_ID: VAL-09
+Command: python -X utf8 scripts/check_stage2_delivery.py --root . --mode progress
+Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
+Start_Timestamp: 2026-07-28T14:26:34.5962928+08:00
+End_Timestamp: 2026-07-28T14:26:34.8011288+08:00
+Python_Version: Python 3.13.13
+Exit_Code: 1
+Affected_Files: Stage 2 baseline/artifact/gate/collision/PSPICE/delivery evidence
+[STDOUT]
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:2:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:3:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:4:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:5:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:6:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:7:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:8:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:9:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:10:Path:ERROR:artifact missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:2:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:2:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:4:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:5:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:6:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:6:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:7:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:8:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:8:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:9:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:9:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:11:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:13:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:14:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:15:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:16:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:17:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:18:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:19:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:20:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:21:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:22:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:23:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:24:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:25:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:26:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:27:Source_Path:ERROR:source missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:28:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:28:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:30:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:31:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:32:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:33:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:34:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:35:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:37:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:38:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:39:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:40:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:41:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:42:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:43:Path:ERROR:evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:44:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:44:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:45:Size_Bytes:ERROR:size drift
+C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\artifact_manifest.csv:45:SHA256:ERROR:stale hash
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:2:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:3:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:4:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:5:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:6:Evidence:ERROR:CSDF evidence missing
+C:\project\orcad_project\.repo_audit_tmp_20260728\evidence\stage2\batch\lt03_charge_deficit_summary.csv:7:Evidence:ERROR:CSDF evidence missing
+Checked Stage 2 progress delivery; 63 issue(s).
+[STDERR]
+<empty>

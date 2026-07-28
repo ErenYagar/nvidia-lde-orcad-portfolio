@@ -1,46 +1,75 @@
 Validator Run Log
 =================
 Repository: ErenYagar/nvidia-lde-orcad-portfolio
-Branch: main
-Commit: 24d9f51a3bbe024b5cb5d757c8823362d4c2612a
-Audit scope: documented public-package validators plus Stage 2 progress triage command
-Native Cadence/PSpice source files were not modified.
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
+Validation_Window: 2026-07-28T15:24:18.7456841+08:00 to 2026-07-28T15:24:22.8051265+08:00
+Timezone: Asia/Taipei (+08:00)
+Native_Source_Modification: None
+Validation_Evidence_Commit: Pending until evidence files are committed
+Audit_Scope: documented PR validation commands; no failure hidden, skipped, or waived
 
---------------------------------------------------------------------------------
+Validated content commit is the PR content SHA before this evidence refresh.
+Committing these evidence files will create a different final PR head SHA; the old SHA is not represented as the final head.
+
+================================================================================
 Test_ID: VAL-01
 Command: python scripts/validate_csv.py --root .
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:53.3843525+08:00
-End_Timestamp: 2026-07-28T14:23:53.6131382+08:00
+Start_Timestamp: 2026-07-28T15:24:18.7456841+08:00
+End_Timestamp: 2026-07-28T15:24:19.0417919+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
-Affected_Files: All repository CSV files
+Outcome: PASS
+Pass_Count: 48
+Fail_Count: 0
+Warning_Count: 0
+Affected_Files: All repository CSV files, including docs/SOURCE_REGISTER.csv and evidence/validation/latest_validator_summary.csv
+Interpretation: 48 CSV files checked; 0 schema or row-level issue. Count reflects the PR content commit.
 [STDOUT]
-Checked 46 CSV file(s); 0 issue(s).
+Checked 48 CSV file(s); 0 issue(s).
 [STDERR]
 <empty>
---------------------------------------------------------------------------------
+
+================================================================================
 Test_ID: VAL-02
 Command: python scripts/check_bom_fields.py manufacturing/bom.csv
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:53.4054128+08:00
-End_Timestamp: 2026-07-28T14:23:53.5416034+08:00
+Start_Timestamp: 2026-07-28T15:24:19.0581795+08:00
+End_Timestamp: 2026-07-28T15:24:19.2016411+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
+Outcome: PASS
+Pass_Count: 1
+Fail_Count: 0
+Warning_Count: 0
 Affected_Files: manufacturing/bom.csv
+Interpretation: BOM required-field check passed.
 [STDOUT]
 Checked BOM; 0 issue(s).
 [STDERR]
 <empty>
---------------------------------------------------------------------------------
+
+================================================================================
 Test_ID: VAL-03
 Command: python scripts/check_duplicate_pins.py schematic/connection_matrix.csv schematic/symbol_pinmap.csv
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:54.1357078+08:00
-End_Timestamp: 2026-07-28T14:23:54.3832408+08:00
+Start_Timestamp: 2026-07-28T15:24:19.2029525+08:00
+End_Timestamp: 2026-07-28T15:24:19.3616037+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
+Outcome: PASS_WITH_REVIEW_WARNINGS
+Pass_Count: 1
+Fail_Count: 0
+Warning_Count: 31
 Affected_Files: schematic/connection_matrix.csv; schematic/symbol_pinmap.csv
+Interpretation: 0 errors; 31 same-net duplicate-appearance warnings retained for human cross-probe.
 [STDOUT]
 schematic\connection_matrix.csv:112:C1.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [112, 113, 114, 115, 116]
 schematic\connection_matrix.csv:118:D2.1:WARNING:duplicate appearance on P12V_SLOT; human review rows [118, 119, 120, 121, 122]
@@ -77,57 +106,85 @@ Checked pin data; 0 error(s), 31 warning(s).
 [STDERR]
 <empty>
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-04
 Command: python scripts/check_net_names.py schematic/connection_matrix.csv
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:54.1767072+08:00
-End_Timestamp: 2026-07-28T14:23:54.4092632+08:00
+Start_Timestamp: 2026-07-28T15:24:19.3616037+08:00
+End_Timestamp: 2026-07-28T15:24:19.4933167+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
+Outcome: PASS
+Pass_Count: 1
+Fail_Count: 0
+Warning_Count: 0
 Affected_Files: schematic/connection_matrix.csv
+Interpretation: Net naming, lane-pair and sideband checks passed.
 [STDOUT]
 Checked net names; 0 issue(s).
 [STDERR]
 <empty>
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-05
 Command: python scripts/check_documentation_links.py --root .
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:54.2447141+08:00
-End_Timestamp: 2026-07-28T14:23:54.5921739+08:00
+Start_Timestamp: 2026-07-28T15:24:19.4933167+08:00
+End_Timestamp: 2026-07-28T15:24:19.7324728+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
-Affected_Files: Repository Markdown links
+Outcome: PASS
+Pass_Count: 225
+Fail_Count: 0
+Warning_Count: 0
+Affected_Files: Repository Markdown files and referenced local paths
+Interpretation: 225 local documentation links checked; 0 issue.
 [STDOUT]
 Checked 225 local link(s); 0 issue(s).
 [STDERR]
 <empty>
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-06
 Command: python scripts/check_portfolio_i18n.py
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:54.2487048+08:00
-End_Timestamp: 2026-07-28T14:23:54.4637837+08:00
+Start_Timestamp: 2026-07-28T15:24:19.7324728+08:00
+End_Timestamp: 2026-07-28T15:24:19.9061003+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 0
+Outcome: PASS
+Pass_Count: 75
+Fail_Count: 0
+Warning_Count: 0
 Affected_Files: Portfolio i18n nodes
+Interpretation: 75 i18n nodes checked; 0 issue.
 [STDOUT]
 Checked 75 i18n node(s); 0 issue(s).
 [STDERR]
 <empty>
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-07
 Command: python -m unittest discover -s scripts -p "test_*.py" -v
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:25:29.8830115+08:00
-End_Timestamp: 2026-07-28T14:25:32.1147318+08:00
+Start_Timestamp: 2026-07-28T15:24:19.9061003+08:00
+End_Timestamp: 2026-07-28T15:24:22.3281793+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 1
-Affected_Files: scripts/test_*.py and referenced fixtures/artifacts
+Outcome: PARTIAL_FAIL
+Pass_Count: 42
+Fail_Count: 3
+Warning_Count: 0
+Affected_Files: scripts/test_*.py; stage2 manifests; Stage 2 collision/access-exception evidence
+Interpretation: 42/45 passed. Failures remain test_blocked_collision_cases_are_complete_and_honest, test_documented_access_exception_requires_explicit_opt_in, and test_repository_progress_delivery_passes.
 [STDOUT]
 <empty>
 [STDERR]
@@ -275,19 +332,26 @@ Checked Stage 2 progress delivery; 63 issue(s).
 
 
 ----------------------------------------------------------------------
-Ran 45 tests in 2.036s
+Ran 45 tests in 2.212s
 
 FAILED (failures=3)
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-08
 Command: python scripts/check_stage3_delivery.py --root .
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:23:54.2867040+08:00
-End_Timestamp: 2026-07-28T14:23:54.6936506+08:00
+Start_Timestamp: 2026-07-28T15:24:22.3281793+08:00
+End_Timestamp: 2026-07-28T15:24:22.5975194+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 1
-Affected_Files: Legacy Stage 3 delivery paths and current repository artifacts
+Outcome: FAILED_NOT_USED_AS_GATE
+Pass_Count: 0
+Fail_Count: 1
+Warning_Count: 0
+Affected_Files: scripts/check_stage3_delivery.py; pcb/allegro/stage3/stage3_3d_mapping_inventory.txt
+Interpretation: Legacy RevI checker still references a missing hard-coded artifact; not used as the RevK release gate and not reported as PASS.
 [STDOUT]
 <empty>
 [STDERR]
@@ -308,15 +372,22 @@ Traceback (most recent call last):
            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\project\\orcad_project\\.repo_audit_tmp_20260728\\pcb\\allegro\\stage3\\stage3_3d_mapping_inventory.txt'
 
---------------------------------------------------------------------------------
+================================================================================
 Test_ID: VAL-09
 Command: python -X utf8 scripts/check_stage2_delivery.py --root . --mode progress
+Branch: agent/add-evidence-audit-source-register
+Validated_Content_Commit: 6f2109f48d5759e5aab95a55cf5aba2554be1942
 Working_Directory: C:\project\orcad_project\.repo_audit_tmp_20260728
-Start_Timestamp: 2026-07-28T14:26:34.5962928+08:00
-End_Timestamp: 2026-07-28T14:26:34.8011288+08:00
+Start_Timestamp: 2026-07-28T15:24:22.5975194+08:00
+End_Timestamp: 2026-07-28T15:24:22.8051265+08:00
 Python_Version: Python 3.13.13
 Exit_Code: 1
-Affected_Files: Stage 2 baseline/artifact/gate/collision/PSPICE/delivery evidence
+Outcome: TRIAGE_FAIL
+Pass_Count: 0
+Fail_Count: 63
+Warning_Count: 0
+Affected_Files: stage2/baseline_manifest.csv; stage2/artifact_manifest.csv; evidence/stage2/batch/lt03_charge_deficit_summary.csv; referenced Stage 2 artifacts
+Interpretation: Evidence reconciliation remains open: 9 baseline missing, 27 evidence missing, 8 size drift, 8 stale hash, 5 source missing, and 6 CSDF evidence missing.
 [STDOUT]
 C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:2:Path:ERROR:artifact missing
 C:\project\orcad_project\.repo_audit_tmp_20260728\stage2\baseline_manifest.csv:3:Path:ERROR:artifact missing
